@@ -1,0 +1,47 @@
+.home-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  max-width: 1000px;
+  padding: 40px 0;
+}
+
+@media screen and (max-width: 576px) {
+  .home-con {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.home-img {
+  width: 125px;
+  height: 100px;
+}
+
+@media screen and (min-width: 576px) {
+  .home-mobile-img {
+    display: none;
+  }
+}
+.desc{
+  color:#475569;
+}
+
+.shop-btn {
+  background-color: #0967d2;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.home-desktop-img {
+  height: 350px;
+}
+
+@media screen and (max-width: 576px) {
+  .home-desktop-img {
+    display: none;
+  }
+}
